@@ -187,4 +187,3 @@ class Shapes:
                 tommy.clear()
             elif keep == 1:
                 redundant = option
-
