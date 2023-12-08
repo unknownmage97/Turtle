@@ -164,7 +164,7 @@ class Shapes:
         '''
         redundant = 5
         while True:
-            option = random.randint(0, 5)
+            option = random.randint(0, 6)
             keep = random.randint(1, 5)
             self.add_color()
             while redundant == option:
@@ -185,6 +185,7 @@ class Shapes:
                 self.sun()
             if keep > 1:
                 tommy.clear()
+                redundant = 7
             elif keep == 1:
                 redundant = option
 
