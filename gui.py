@@ -5,3 +5,4 @@ wn.bgcolor("black")
 turtle.colormode(255)
 tommy.speed(50)
 tommy.pensize(5)
+
